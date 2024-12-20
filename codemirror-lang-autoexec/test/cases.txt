@@ -1,0 +1,21 @@
+// Comment
+echo Hello World 123 Hello123
+
+alias _crosshairRed "cl_crosshaircolor_b 0; cl_crosshaircolor_r 255; cl_crosshaircolor_g 0"
+
+bind scancode20 "lastinv"
+
+log_color "Console" "FFA833FF"
+
+ui_steam_overlay_notification_position "topright"
+
+fps_max_tools 144
+
+cl_autohelp	true
+cl_autohelp	"true"
+
+zoom_sensitivity_ratio 0.818933027098955175
+
+bind scancode17 "incrementvar cl_radar_scale 0 1 0.25" 
+
+apply_crosshair_code "CSGO-bAXUJ-JWt7w-S6eAq-LnEZA-3yOtQ"

@@ -1,0 +1,16 @@
+.DS_Store
+/codemirror-lang-autoexec/node_modules
+/codemirror-lang-autoexec/package-lock.json
+/codemirror-lang-autoexec/dist
+/codemirror-lang-autoexec/src/*.js
+/codemirror-lang-autoexec/src/*.d.ts
+/frontend/node_modules
+/frontend/build
+/frontend/.svelte-kit
+/frontend/package
+/frontend/.env
+/frontend/.env.*
+/frontend/!.env.example
+/frontend/vite.config.js.timestamp-*
+/frontend/vite.config.ts.timestamp-*
+/design

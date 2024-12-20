@@ -1,0 +1,429 @@
+.keyboard__button {
+   /*  Function Keys */
+   &[name="functions-escape"] {
+      grid-area: 1 / 1 / 2 / 2;
+   }
+
+   &[name="functions-function-1"] {
+      grid-area: 1 / 3 / 2 / 4;
+   }
+
+   &[name="functions-function-2"] {
+      grid-area: 1 / 4 / 2 / 5;
+   }
+
+   &[name="functions-function-3"] {
+      grid-area: 1 / 5 / 2 / 6;
+   }
+
+   &[name="functions-function-4"] {
+      grid-area: 1 / 6 / 2 / 7;
+   }
+
+   &[name="functions-function-5"] {
+      grid-area: 1 / 8 / 2 / 9;
+   }
+
+   &[name="functions-function-6"] {
+      grid-area: 1 / 9 / 2 / 10;
+   }
+
+   &[name="functions-function-7"] {
+      grid-area: 1 / 10 / 2 / 11;
+   }
+
+   &[name="functions-function-8"] {
+      grid-area: 1 / 11 / 2 / 12;
+   }
+
+   &[name="functions-function-9"] {
+      grid-area: 1 / 13 / 2 / 14;
+   }
+
+   &[name="functions-function-10"] {
+      grid-area: 1 / 14 / 2 / 15;
+   }
+
+   &[name="functions-function-11"] {
+      grid-area: 1 / 15 / 2 / 16;
+   }
+
+   &[name="functions-function-12"] {
+      grid-area: 1 / 16 / 2 / 17;
+   }
+
+   /* Main Keys */
+   &[name="main-tilda"] {
+      grid-area: 1 / 1 / 2 / 3;
+   }
+
+   &[name="main-1"] {
+      grid-area: 1 / 3 / 2 / 5;
+   }
+
+   &[name="main-2"] {
+      grid-area: 1 / 5 / 2 / 7;
+   }
+
+   &[name="main-3"] {
+      grid-area: 1 / 7 / 2 / 9;
+   }
+
+   &[name="main-4"] {
+      grid-area: 1 / 9 / 2 / 11;
+   }
+
+   &[name="main-5"] {
+      grid-area: 1 / 11 / 2 / 13;
+   }
+
+   &[name="main-6"] {
+      grid-area: 1 / 13 / 2 / 15;
+   }
+
+   &[name="main-7"] {
+      grid-area: 1 / 15 / 2 / 17;
+   }
+
+   &[name="main-8"] {
+      grid-area: 1 / 17 / 2 / 19;
+   }
+
+   &[name="main-9"] {
+      grid-area: 1 / 19 / 2 / 21;
+   }
+
+   &[name="main-0"] {
+      grid-area: 1 / 21 / 2 / 23;
+   }
+
+   &[name="main-hyphen"] {
+      grid-area: 1 / 23 / 2 / 25;
+   }
+
+   &[name="main-equals"] {
+      grid-area: 1 / 25 / 2 / 27;
+   }
+
+   &[name="main-backspace"] {
+      grid-area: 1 / 27 / 2 / 31;
+   }
+
+   &[name="main-tab"] {
+      grid-area: 2 / 1 / 3 / 4;
+   }
+
+   &[name="main-q"] {
+      grid-area: 2 / 4 / 3 / 6;
+   }
+
+   &[name="main-w"] {
+      grid-area: 2 / 6 / 3 / 8;
+   }
+
+   &[name="main-e"] {
+      grid-area: 2 / 8 / 3 / 10;
+   }
+
+   &[name="main-r"] {
+      grid-area: 2 / 10 / 3 / 12;
+   }
+
+   &[name="main-t"] {
+      grid-area: 2 / 12 / 3 / 14;
+   }
+
+   &[name="main-y"] {
+      grid-area: 2 / 14 / 3 / 16;
+   }
+
+   &[name="main-u"] {
+      grid-area: 2 / 16 / 3 / 18;
+   }
+
+   &[name="main-i"] {
+      grid-area: 2 / 18 / 3 / 20;
+   }
+
+   &[name="main-o"] {
+      grid-area: 2 / 20 / 3 / 22;
+   }
+
+   &[name="main-p"] {
+      grid-area: 2 / 22 / 3 / 24;
+   }
+
+   &[name="main-bracket-start"] {
+      grid-area: 2 / 24 / 3 / 26;
+   }
+
+   &[name="main-bracket-end"] {
+      grid-area: 2 / 26 / 3 / 28;
+   }
+
+   &[name="main-backslash"] {
+      grid-area: 2 / 28 / 3 / 31;
+   }
+
+   &[name="main-cap-locks"] {
+      grid-area: 3 / 1 / 4 / 5;
+   }
+
+   &[name="main-a"] {
+      grid-area: 3 / 5 / 4 / 7;
+   }
+
+   &[name="main-s"] {
+      grid-area: 3 / 7 / 4 / 9;
+   }
+
+   &[name="main-d"] {
+      grid-area: 3 / 9 / 4 / 11;
+   }
+
+   &[name="main-f"] {
+      grid-area: 3 / 11 / 4 / 13;
+   }
+
+   &[name="main-g"] {
+      grid-area: 3 / 13 / 4 / 15;
+   }
+
+   &[name="main-h"] {
+      grid-area: 3 / 15 / 4 / 17;
+   }
+
+   &[name="main-j"] {
+      grid-area: 3 / 17 / 4 / 19;
+   }
+
+   &[name="main-k"] {
+      grid-area: 3 / 19 / 4 / 21;
+   }
+
+   &[name="main-l"] {
+      grid-area: 3 / 21 / 4 / 23;
+   }
+
+   &[name="main-semicolon"] {
+      grid-area: 3 / 23 / 4 / 25;
+   }
+
+   &[name="main-apostrophe"] {
+      grid-area: 3 / 25 / 4 / 27;
+   }
+
+   &[name="main-enter"] {
+      grid-area: 3 / 27 / 4 / 31;
+   }
+
+   &[name="main-left-shift"] {
+      grid-area: 4 / 1 / 5 / 6;
+   }
+
+   &[name="main-z"] {
+      grid-area: 4 / 6 / 5 / 8;
+   }
+
+   &[name="main-x"] {
+      grid-area: 4 / 8 / 5 / 10;
+   }
+
+   &[name="main-c"] {
+      grid-area: 4 / 10 / 5 / 12;
+   }
+
+   &[name="main-v"] {
+      grid-area: 4 / 12 / 5 / 14;
+   }
+
+   &[name="main-b"] {
+      grid-area: 4 / 14 / 5 / 16;
+   }
+
+   &[name="main-n"] {
+      grid-area: 4 / 16 / 5 / 18;
+   }
+
+   &[name="main-m"] {
+      grid-area: 4 / 18 / 5 / 20;
+   }
+
+   &[name="main-comma"] {
+      grid-area: 4 / 20 / 5 / 22;
+   }
+
+   &[name="main-period"] {
+      grid-area: 4 / 22 / 5 / 24;
+   }
+
+   &[name="main-forward-slash"] {
+      grid-area: 4 / 24 / 5 / 26;
+   }
+
+   &[name="main-right-shift"] {
+      grid-area: 4 / 26 / 5 / 31;
+   }
+
+   &[name="main-right-control"] {
+      grid-area: 5 / 1 / 6 / 3;
+   }
+
+   &[name="main-command"] {
+      grid-area: 5 / 3 / 6 / 5;
+   }
+
+   &[name="main-left-alt"] {
+      grid-area: 5 / 5 / 6 / 7;
+   }
+
+   &[name="main-space"] {
+      grid-area: 5 / 7 / 6 / 23;
+   }
+
+   &[name="main-right-alt"] {
+      grid-area: 5 / 23 / 6 / 25;
+   }
+
+   &[name="main-function"] {
+      grid-area: 5 / 25 / 6 / 27;
+   }
+
+   &[name="main-menu"] {
+      grid-area: 5 / 27 / 6 / 29;
+   }
+
+   &[name="main-left-control"] {
+      grid-area: 5 / 29 / 6 / 31;
+   }
+
+   /* Top Controls */
+   &[name="controls_1-print-screen"] {
+      grid-area: 1 / 1 / 2 / 2;
+   }
+
+   &[name="controls_1-scroll-lock"] {
+      grid-area: 1 / 2 / 2 / 3;
+   }
+
+   &[name="controls_1-pause"] {
+      grid-area: 1 / 3 / 2 / 4;
+   }
+
+   /* Middle Controls */
+   &[name="controls_2-insert"] {
+      grid-area: 1 / 1 / 2 / 2;
+   }
+
+   &[name="controls_2-home"] {
+      grid-area: 1 / 2 / 2 / 3;
+   }
+
+   &[name="controls_2-page-up"] {
+      grid-area: 1 / 3 / 2 / 4;
+   }
+
+   &[name="controls_2-delete"] {
+      grid-area: 2 / 1 / 3 / 2;
+   }
+
+   &[name="controls_2-end"] {
+      grid-area: 2 / 2 / 3 / 3;
+   }
+
+   &[name="controls_2-page-down"] {
+      grid-area: 2 / 3 / 3 / 4;
+   }
+
+   /* Arrows Controls */
+   &[name="arrows-arrow-up"] {
+      grid-area: 1 / 2 / 2 / 3;
+   }
+
+   &[name="arrows-arrow-left"] {
+      grid-area: 2 / 1 / 3 / 2;
+   }
+
+   &[name="arrows-arrow-down"] {
+      grid-area: 2 / 2 / 3 / 3;
+   }
+
+   &[name="arrows-arrow-right"] {
+      grid-area: 2 / 3 / 3 / 4;
+   }
+
+   /* Numpad */
+   &[name="numpad-num-lock"] {
+      grid-area: 1 / 1 / 2 / 2;
+   }
+
+   &[name="numpad-division"] {
+      grid-area: 1 / 2 / 2 / 3;
+   }
+
+   &[name="numpad-multiply"] {
+      grid-area: 1 / 3 / 2 / 4;
+   }
+
+   &[name="numpad-subtraction"] {
+      grid-area: 1 / 4 / 2 / 5;
+   }
+
+   &[name="numpad-7"] {
+      grid-area: 2 / 1 / 3 / 2;
+   }
+
+   &[name="numpad-8"] {
+      grid-area: 2 / 2 / 3 / 3;
+   }
+
+   &[name="numpad-9"] {
+      grid-area: 2 / 3 / 3 / 4;
+   }
+
+   &[name="numpad-4"] {
+      grid-area: 3 / 1 / 4 / 2;
+   }
+
+   &[name="numpad-5"] {
+      grid-area: 3 / 2 / 4 / 3;
+   }
+
+   &[name="numpad-6"] {
+      grid-area: 3 / 3 / 4 / 4;
+   }
+
+   &[name="numpad-1"] {
+      grid-area: 4 / 1 / 5 / 2;
+   }
+
+   &[name="numpad-2"] {
+      grid-area: 4 / 2 / 5 / 3;
+   }
+
+   &[name="numpad-3"] {
+      grid-area: 4 / 3 / 5 / 4;
+   }
+
+   &[name="numpad-0"] {
+      grid-area: 5 / 1 / 6 / 3;
+   }
+
+   &[name="numpad-delete"] {
+      grid-area: 5 / 3 / 6 / 4;
+   }
+
+   &[name="numpad-addition"] {
+      min-height: 100%;
+      max-height: 100%;
+      height: 100%;
+      grid-area: 2 / 4 / 4 / 5;
+   }
+
+   &[name="numpad-enter"] {
+      min-height: 100%;
+      max-height: 100%;
+      height: 100%;
+      grid-area: 4 / 4 / 6 / 5;
+   }
+}

@@ -1,0 +1,31 @@
+.tooltip {
+    display: flex;
+    flex-direction: column;
+    padding: .5em .9em;
+    gap: .3em;
+    max-width: 30em;
+    font-size: .9em;
+    &__description {
+        font-style: italic;
+    }
+
+    &__flags {
+        display: flex;
+   
+        gap: .5em;
+        &__header {
+            font-weight: 500;
+           
+        }
+
+        &__list {
+            display: flex;
+            gap: .4em;
+            &-item {
+                text-decoration: underline;
+
+            }
+        }
+    }
+
+}

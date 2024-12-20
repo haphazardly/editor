@@ -1,0 +1,31 @@
+{
+   "html.format.indentHandlebars": true,
+   "css.customData": [".vscode/tailwind.json"],
+   "files.associations": {
+      "*.css": "tailwindcss"
+   },
+   "css.lint.unknownAtRules": "ignore",
+   "restoreTerminals.terminals": [
+      {
+         "splitTerminals": [
+            {
+               "name": "dev server",
+               "commands": [
+                  "cd codemirror-lang-autoexec",
+                  "npm run prepare",
+                  "npm pack",
+                  "cd ..",
+                  "cd frontend", 
+                  "npm i", 
+                  "npm run postinstall", 
+                  "npm run dev"
+               ]
+            },
+            {
+               "name": "terminal",
+               "commands": ["cd frontend", "clear"]
+            }
+         ]
+      }
+   ]
+}

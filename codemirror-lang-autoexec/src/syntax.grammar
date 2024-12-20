@@ -1,0 +1,37 @@
+@top Config { Line* Command* Keyword* }
+
+Keyword {
+  kw<"bind"> | kw<"alias"> Line* |
+  kw<"echo"> (Value)* EOL
+}
+
+Line { 
+  ((Comment | Command) EOL | "\n")
+}
+
+Command { 
+  (
+    @specialize[@name=Boolean]<Identifier, "true" | "false"> |
+    String |
+    Identifier |
+    Number
+  ) 
+}
+
+kw<term> { 
+  @specialize[@name={term}]<PropertyName, term>
+}
+
+@tokens {
+  EOL { @eof | "\n" }
+  Space { $[ \t]+ }
+  Comment { "//" ![\n]* }
+  Identifier { $[a-zA-Z0-9_]+  }
+  String { '"' !["\n]* '"' }
+  Number { @digit | ("." @digit+)+ }
+  Value { ![ ] }
+  PropertyName { "echo" | "alias" | "bind" }
+  @precedence { Space EOL Value Number PropertyName Identifier String }
+}
+
+@external propSource highlighting from "./highlight.js"

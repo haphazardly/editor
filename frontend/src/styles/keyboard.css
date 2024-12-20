@@ -1,0 +1,60 @@
+
+.keyboard {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 1280px;
+    overflow: auto;
+ 
+    /* &__wrapper {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+  */
+    &__section {
+       grid-gap: 6px;
+       padding: 0 16px;
+       margin: 0 auto;
+       display: grid;
+       width: 100%;
+       max-width: 960px;
+    }
+ 
+    &__functions {
+       grid-area: 1 / 1 / 2 / 2;
+       grid-template-columns: repeat(16, 1fr);
+    }
+ 
+    &__main {
+       grid-area: 2 / 1 / 7 / 2;
+       grid-template-columns: repeat(30, 1fr);
+       grid-template-rows: repeat(5, 1fr);
+    }
+ 
+    &__controls_1 {
+       grid-template-columns: repeat(3, 1fr);
+       grid-area: 1 / 2 / 2 / 3;
+    }
+ 
+    &__controls_2 {
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(3, 1fr);
+       grid-area: 2 / 2 / 5 / 3;
+    }
+ 
+    &__arrows {
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(2, 1fr);
+       grid-area: 5 / 2 / 7 / 3;
+    }
+ 
+    &__numpad {
+       grid-template-columns: repeat(4, 1fr);
+       grid-template-rows: repeat(5, 1fr);
+       grid-area: 2 / 3 / 7 / 4;
+    }
+ }
+ 
